@@ -1,5 +1,9 @@
 FM-Index - Compressed full-text Index
 =====================================
+The goal of the project is to implement the algorithm described in the paper High Throughput Short Read Alignment via Bi-directional BWT.
+The paper:
+https://www.cs.bgu.ac.il/~tsd181/wiki.files/Lam.pdf
+
 
 A simple C++ based FM-Index [1] implementation using RRR [4] wavelet trees [5]
 which allows to build a full-text index over a given text `T` of size `n`
